@@ -119,7 +119,6 @@ public class <#=ClassName#>
 
 public class ExcelHelper
 {
-
    public List<<#=ClassName#>>  ParseFile()
    {		
 		var result = new List<<#=ClassName#>>();	
@@ -151,8 +150,7 @@ public class ExcelHelper
 			}
 		}
 		return result;
-   }
-	
+   }	
 }
 <#+
 public string ClassName = "DrugSearch";

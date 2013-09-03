@@ -102,7 +102,6 @@ public class DrugSearch
 
 public class ExcelHelper
 {
-
    public List<DrugSearch>  ParseFile()
    {		
 		var result = new List<DrugSearch>();	
@@ -134,6 +133,5 @@ public class ExcelHelper
 			}
 		}
 		return result;
-   }
-	
+   }	
 }
