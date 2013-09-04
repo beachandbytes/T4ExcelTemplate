@@ -100,9 +100,9 @@ public class DrugSearch
 
 
 
-public class ExcelHelper
+public static class ExcelHelper
 {
-   public List<DrugSearch>  ParseFile()
+   public static List<DrugSearch>  Parse()
    {		
 		var result = new List<DrugSearch>();	
 		var excelFileInfo  = new FileInfo(@"C:\ExcelT4Template\ExcelClassGenerator\SampleExcelFile.xlsx");

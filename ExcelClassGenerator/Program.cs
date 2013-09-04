@@ -6,9 +6,7 @@ namespace ExcelClassGenerator
     {
         static void Main(string[] args)
         {
-            var excelHelper = new ExcelHelper();
-            var itemList = excelHelper.ParseFile();
-            foreach (var item in itemList)
+            foreach (var item in ExcelHelper.Parse())
             {
                 Console.WriteLine(item.ToString());
             }
